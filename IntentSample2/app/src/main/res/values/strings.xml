@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IntentSample</string>
+    <string name="email_address">Email</string>
+    <string name="login">Login</string>
+    <string name="result">Result</string>
+    <string name="email">Email :</string>
+    <string name="password">Password :</string>
+    <string name="status_login">Status Login :</string>
+</resources>

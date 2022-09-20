@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">DataTraining</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+
+    <string-array name="data_name">
+        <item>Pempek Kapal Selam</item>
+        <item>Bubur Ayam</item>
+        <item>Ketoprak</item>
+        <item>Sate Ayam</item>
+        <item>Soto Kudus</item>
+        <item>Soto Betawi</item>
+        <item>Kupat Sayur</item>
+        <item>Es Kuwut</item>
+    </string-array>
+
+    <string-array name="data_price">
+        <item>Rp. 15.000</item>
+        <item>Rp. 11.000</item>
+        <item>Rp. 9.000</item>
+        <item>Rp. 13.000</item>
+        <item>Rp. 15.000</item>
+        <item>Rp. 17.000</item>
+        <item>Rp. 12.000</item>
+        <item>Rp. 8.000</item>
+    </string-array>
+
+    <integer-array name="data_pic">
+        <item>@drawable/pempek</item>
+        <item>@drawable/bubur_ayam</item>
+        <item>@drawable/ketoprak</item>
+        <item>@drawable/sate_ayam</item>
+        <item>@drawable/soto_kudus</item>
+        <item>@drawable/soto_betawi</item>
+        <item>@drawable/kupat_sayur</item>
+        <item>@drawable/es_kuwut</item>
+    </integer-array>
+</resources>

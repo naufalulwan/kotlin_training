@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/list_fragment">
+
+    <fragment
+        android:id="@+id/list_fragment"
+        android:name="com.inditraining.room_implementation.fragments.list.ListFragment"
+        android:label="List User"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_addFragment"
+            app:destination="@id/add_fragment" />
+        <action
+            android:id="@+id/action_list_fragment_to_updateFragment"
+            app:destination="@id/updateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/add_fragment"
+        android:name="com.inditraining.room_implementation.fragments.add.AddFragment"
+        android:label="Add User"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_listFragment"
+            app:destination="@id/list_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.inditraining.room_implementation.fragments.update.UpdateFragment"
+        android:label="Update User"
+        tools:layout="@layout/fragment_update" >
+        <action
+            android:id="@+id/action_updateFragment_to_list_fragment"
+            app:destination="@id/list_fragment" />
+        <argument
+            android:name="currentUser"
+            app:argType="com.inditraining.room_implementation.model.User" />
+    </fragment>
+</navigation>
